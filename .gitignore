@@ -169,7 +169,7 @@ mainConfig.py
 
 # user files
 geckodriver.log
-*.txt
+# *.txt
 *.exe
 
 # premium files
