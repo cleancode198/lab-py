@@ -1,0 +1,128 @@
+{
+  "name": "Your Name",
+  "contact": {
+    "email": "your.email@example.com",
+    "phone": "+1-234-567-8900",
+    "linkedin": "linkedin.com/in/yourprofile",
+    "github": "github.com/yourusername",
+    "location": "City, State"
+  },
+  "experience_years": 5,
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Python",
+    "Django",
+    "PostgreSQL",
+    "MongoDB",
+    "Docker",
+    "AWS",
+    "Git",
+    "REST APIs",
+    "GraphQL",
+    "HTML5",
+    "CSS3",
+    "Redux",
+    "Express.js",
+    "Jest",
+    "Webpack",
+    "CI/CD"
+  ],
+  "soft_skills": [
+    "communication",
+    "teamwork",
+    "problem-solving",
+    "leadership",
+    "analytical",
+    "detail-oriented",
+    "self-motivated",
+    "adaptable"
+  ],
+  "experience": [
+    {
+      "company": "Tech Company ABC",
+      "role": "Senior Frontend Developer",
+      "duration": "2021 - Present",
+      "bullets": [
+        "Developed and maintained React-based web applications serving 100K+ daily active users",
+        "Led frontend architecture decisions and implemented best practices for code quality",
+        "Collaborated with UX/UI designers to implement responsive and accessible interfaces",
+        "Mentored junior developers and conducted code reviews to ensure code quality",
+        "Optimized application performance resulting in 40% faster load times",
+        "Implemented comprehensive testing strategy using Jest and React Testing Library",
+        "Built reusable component library that reduced development time by 30%",
+        "Integrated third-party APIs and services for payment processing and analytics",
+        "Participated in agile development process and sprint planning"
+      ]
+    },
+    {
+      "company": "Startup XYZ",
+      "role": "Full Stack Developer",
+      "duration": "2019 - 2021",
+      "bullets": [
+        "Built RESTful APIs using Node.js and Express.js handling 1M+ requests daily",
+        "Designed and implemented database schemas in PostgreSQL and MongoDB",
+        "Developed microservices architecture using Docker and Kubernetes",
+        "Created automated CI/CD pipelines using Jenkins and GitHub Actions",
+        "Implemented authentication and authorization using JWT and OAuth2",
+        "Worked on real-time features using WebSockets and Redis pub/sub",
+        "Contributed to mobile app development using React Native",
+        "Performed database optimization and query tuning for better performance",
+        "Collaborated with DevOps team to improve deployment processes"
+      ]
+    },
+    {
+      "company": "Software Solutions Inc",
+      "role": "Junior Developer",
+      "duration": "2018 - 2019",
+      "bullets": [
+        "Developed web applications using HTML, CSS, and JavaScript",
+        "Assisted in backend development using Python and Django",
+        "Participated in debugging and troubleshooting production issues",
+        "Wrote unit tests and integration tests for new features",
+        "Documented code and created technical specifications",
+        "Worked with senior developers to implement new features"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "E-commerce Platform",
+      "technologies": ["React", "Redux", "Node.js", "MongoDB", "Stripe API"],
+      "description": "Built a full-stack e-commerce platform with payment processing, inventory management, and admin dashboard"
+    },
+    {
+      "name": "Real-time Chat Application",
+      "technologies": ["React", "Socket.io", "Express.js", "Redis"],
+      "description": "Developed a scalable chat application supporting real-time messaging, file sharing, and video calls"
+    },
+    {
+      "name": "Task Management System",
+      "technologies": ["Vue.js", "Django", "PostgreSQL", "Docker"],
+      "description": "Created a project management tool with kanban boards, time tracking, and team collaboration features"
+    },
+    {
+      "name": "Data Visualization Dashboard",
+      "technologies": ["React", "D3.js", "Python", "Flask", "PostgreSQL"],
+      "description": "Built interactive dashboards for data analysis and visualization with real-time updates"
+    },
+    {
+      "name": "Mobile Weather App",
+      "technologies": ["React Native", "TypeScript", "Weather API"],
+      "description": "Developed cross-platform mobile app with location-based weather forecasts and notifications"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "University Name",
+      "year": "2018"
+    }
+  ],
+  "certifications": [
+    "AWS Certified Developer",
+    "MongoDB Certified Developer"
+  ]
+}
