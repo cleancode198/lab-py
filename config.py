@@ -76,7 +76,7 @@ followCompanies = False  # Don't auto-follow companies after applying
 # IxBrowser Profile Settings
 # Configure multiple profiles here
 ixbrowser_profiles = [
-    {"id": 211, "name": "FR Lukas S"},
+    # {"id": 211, "name": "FR Lukas S"},
     # {"id": 220, "name": "RO Haruki Moreau"},
     # {"id": 229, "name": "PL Jakub Nowak"},
 

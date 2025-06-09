@@ -109,17 +109,54 @@ class LinkedinMultiProfileBot:
             utils.prGreen(f"[{profile.profile_name}] Browser closed successfully")
         except Exception as e:
             utils.prRed(f"[{profile.profile_name}] Error closing browser: {e}")
-    
+
     def check_login_status(self, profile: ProfileSession):
         """Check if profile is logged into LinkedIn"""
         try:
             profile.driver.get("https://www.linkedin.com/my-items/saved-jobs/")
             time.sleep(3)
             
-            jobs_element = profile.driver.find_elements(By.XPATH, "//div[@class='flex-0 pl1 t-black t-normal']")
-            print(jobs_element[0])
-            return True
-        except:
+            # Check for multiple indicators that we're logged in
+            # 1. Look for "My Jobs" heading
+            my_jobs_heading = profile.driver.find_elements(By.XPATH, "//h1[contains(text(), 'My Jobs')]")
+            
+            # 2. Look for the filter pills (Saved, In Progress, Applied, Archived)
+            filter_pills = profile.driver.find_elements(By.CLASS_NAME, "search-reusables__filter-pill-button")
+            
+            # 3. Look for the "My items" section
+            my_items_section = profile.driver.find_elements(By.XPATH, "//h2[contains(text(), 'My items')]")
+            
+            # 4. Look for the job count in the sidebar (e.g., "2,603")
+            job_count = profile.driver.find_elements(By.CSS_SELECTOR, "div.flex-0.pl1.t-black.t-normal")
+            
+            # 5. Look for the "My jobs" link in sidebar
+            my_jobs_link = profile.driver.find_elements(By.XPATH, "//a[contains(@href, '/my-items/saved-jobs/')]")
+            
+            # If we find any of these elements, we're logged in
+            if my_jobs_heading or filter_pills or my_items_section or job_count or my_jobs_link:
+                # Try to get the job count for logging
+                if job_count:
+                    try:
+                        count_text = job_count[0].text
+                        utils.prGreen(f"[{profile.profile_name}] Login confirmed - found My Jobs page with {count_text} jobs")
+                    except:
+                        utils.prGreen(f"[{profile.profile_name}] Login confirmed - found My Jobs page elements")
+                else:
+                    utils.prGreen(f"[{profile.profile_name}] Login confirmed - found My Jobs page elements")
+                return True
+            
+            # Check if we're on a login page instead
+            login_form = profile.driver.find_elements(By.ID, "session_key")
+            if login_form:
+                utils.prYellow(f"[{profile.profile_name}] Not logged in - login form detected")
+                return False
+                
+            # If we can't find any expected elements, we're probably not logged in
+            utils.prYellow(f"[{profile.profile_name}] Could not confirm login status - no expected elements found")
+            return False
+            
+        except Exception as e:
+            utils.prRed(f"[{profile.profile_name}] Error checking login status: {e}")
             return False
     
     def generateUrls(self):
@@ -521,10 +558,10 @@ class LinkedinMultiProfileBot:
             self.worker_thread(profile)
             
             # Delay between profiles
-            if profile != self.profiles[-1]:  # Not the last profile
-                delay = random.uniform(60, 120)
-                utils.prYellow(f"Waiting {delay:.0f} seconds before next profile...")
-                time.sleep(delay)
+            # if profile != self.profiles[-1]:  # Not the last profile
+                # delay = random.uniform(60, 120)
+                # utils.prYellow(f"Waiting {delay:.0f} seconds before next profile...")
+                # time.sleep(delay)
     
     def run_parallel(self, max_concurrent=2):
         """Run multiple profiles in parallel"""
