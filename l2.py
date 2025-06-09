@@ -113,11 +113,12 @@ class LinkedinMultiProfileBot:
     def check_login_status(self, profile: ProfileSession):
         """Check if profile is logged into LinkedIn"""
         try:
-            profile.driver.get("https://www.linkedin.com/feed/")
+            profile.driver.get("https://www.linkedin.com/my-items/saved-jobs/")
             time.sleep(3)
             
-            profile_element = profile.driver.find_elements(By.XPATH, "//div[@id='profile-nav-item']")
-            return len(profile_element) > 0
+            jobs_element = profile.driver.find_elements(By.XPATH, "//div[@class='flex-0 pl1 t-black t-normal']")
+            print(jobs_element[0])
+            return True
         except:
             return False
     
