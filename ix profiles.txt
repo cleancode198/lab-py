@@ -1,0 +1,54 @@
+Profile Name: {
+    'profile_id': 555, 
+    'site_url': 'chrome://newtab', 
+    'name': 'US Johnny Ha', 
+    'note': '', 
+    'color': '#FFCC99', 
+    'username': '', 
+    'password': '', 
+    'last_open_time': 1748892372, 
+    'group_id': 167480, 
+    'group_name': 'linkedin', 
+    'tag_id': '', 
+    'tag_name': '', 
+    'proxy_mode': 1, 
+    'proxy_id': 3168, 
+    'real_ip': '104.32.134.61', 
+    'cache_path': '081a48b39e0365e3d861d9273d74dd4f'
+}
+----------------------------------------
+Profile Name: {
+    'profile_id': 552, 
+    'site_url': 'chrome://newtab', 
+    'name': 'US Fran Monarrez 03', 
+    'note': '', 
+    'color': '#FFCC99', 
+    'username': '', 
+    'password': '', 
+    'last_open_time': 1748392764, 
+    'group_id': 167480, 
+    'group_name': 'linkedin', 
+    'tag_id': '', 
+    'tag_name': '', 
+    'proxy_mode': 1, 
+    'proxy_id': 3168, 
+    'real_ip': '104.178.252.45', 
+    'cache_path': 'fea07a6d651f05a668ce837941c321a6'
+}
+----------------------------------------
+Profile Name: {'profile_id': 551, 'site_url': 'chrome://newtab', 'name': 'US thefranmonarrez', 'note': 'using with him together', 'color': '#CC9966', 'username': '', 'password': '', 'last_open_time': 1748409433, 'group_id': 167480, 'group_name': 'linkedin', 'tag_id': '77352', 'tag_name': 'todo', 'proxy_mode': 2, 'proxy_type': 'direct', 'real_ip': '70.32.3.15', 'cache_path': 'b9773dd9ea0478d11786c339ed473af3'}
+----------------------------------------
+Profile Name: {'profile_id': 550, 'site_url': 'chrome://newtab', 'name': 'US ---', 'note': '', 'color': '#00CED1', 'username': '', 'password': '', 'last_open_time': 1749399467, 'group_id': 167480, 'group_name': 'linkedin', 'tag_id': '77352', 'tag_name': 'todo', 'proxy_mode': 2, 'proxy_type': 'direct', 'real_ip': '207.126.91.113', 'cache_path': 'b3c293007918d257dc6691b8d598a5ad'}
+----------------------------------------
+Profile Name: {'profile_id': 549, 'site_url': 'chrome://newtab', 'name': 'US Richard Garcia 87', 'note': '', 'color': '#FFD700', 'username': '', 'password': '', 'last_open_time': 1748376668, 'group_id': 167480, 'group_name': 'linkedin', 'tag_id': '77352', 'tag_name': 'todo', 'proxy_mode': 1, 'proxy_id': 3168, 'real_ip': '73.124.146.241', 'cache_path': 'cc8d04ba5d058f1114464d52b3165817'}
+----------------------------------------
+Profile Name: {'profile_id': 547, 'site_url': 'chrome://newtab', 'name': 'US Taj', 'note': '', 'color': '#FF6666', 'username': '', 'password': '', 'last_open_time': 1749266365, 'group_id': 167480, 'group_name': 'linkedin', 'tag_id': '', 'tag_name': '', 'proxy_mode': 1, 'proxy_id': 3168, 'real_ip': '74.215.154.99', 'cache_path': '3a91619de3b8d08af8d6bf163cb61ef1'}
+----------------------------------------
+Profile Name: {'profile_id': 546, 'site_url': 'chrome://newtab', 'name': 'CA Brent4', 'note': '', 'color': '#C71585', 'username': '', 'password': '', 'last_open_time': 1746850401, 'group_id': 167480, 'group_name': 'linkedin', 'tag_id': '', 'tag_name': '', 'proxy_mode': 1, 'proxy_id': 
+3168, 'real_ip': '70.66.42.24', 'cache_path': '592fba1f4d2b3da27fd621803cf48e03'}
+----------------------------------------
+Profile Name: {'profile_id': 545, 'site_url': 'chrome://newtab', 'name': 'CA Brent3', 'note': "Brent - zackandbrent@gmail.com\naccess on Brent notebook without proxy first\nI set proxy, but didn't access", 'color': '#FF6666', 'username': '', 'password': '', 'last_open_time': 1746316661, 'group_id': 167480, 'group_name': 'linkedin', 'tag_id': '81408', 'tag_name': 'invalid', 'proxy_mode': 1, 'proxy_id': 3168, 'real_ip': '75.158.154.223', 'cache_path': '691593bfdc8f54294cc85fe18f0de0f6'}
+----------------------------------------
+Profile Name: {'profile_id': 544, 'site_url': 'chrome://newtab', 'name': 'CA Sota', 'note': '', 'color': '#FFD700', 'username': 'Sota Davis', 'password': '', 'last_open_time': 1748704288, 'group_id': 167480, 'group_name': 'linkedin', 'tag_id': '', 'tag_name': '', 'proxy_mode': 1, 'proxy_id': 3168, 'real_ip': '204.191.52.112', 'cache_path': 'ea50c88993e2f0158cb931fadbc0ab60'}
+----------------------------------------
+Profile Name: {'profile_id': 543, 'site_url': 'chrome://newtab', 'name': 'CA Naoki Lefevre | JaEU', 'note': '', 'color': '#C71585', 'username': 'Naoki Lefevre', 'password': '', 'last_open_time': 1748705177, 'group_id': 167480, 'group_name': 'linkedin', 'tag_id': '', 'tag_name': '', 'proxy_mode': 1, 'proxy_id': 3168, 'real_ip': '24.222.126.193', 'cache_path': '240e707b6ed0e2460604136731795f72'}
